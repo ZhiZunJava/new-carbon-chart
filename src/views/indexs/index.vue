@@ -20,13 +20,13 @@
       </ItemWrap>
     </div>
     <div class="contetn_right">
-      <ItemWrap class="contetn_left-bottom contetn_lr_item" title="销售统计">
+      <ItemWrap class="contetn_right-top contetn_lr_item" title="销售统计">
         <RightTop></RightTop>
       </ItemWrap>
-      <ItemWrap class="contetn_left-bottom contetn_lr_item" title="销售排名(TOP8)" style="padding: 0 10px 16px 10px">
+      <ItemWrap class="contetn_right-center contetn_lr_item" title="销售排名(TOP8)" style="padding: 0 10px 16px 10px">
         <RightCenter></RightCenter>
       </ItemWrap>
-      <ItemWrap class="contetn_left-bottom contetn_lr_item" title="生产统计 " style="padding: 0 10px 16px 10px">
+      <ItemWrap class="contetn_right-bottom contetn_lr_item" title="生产统计 " style="padding: 0 10px 16px 10px">
         <RightBottom></RightBottom>
       </ItemWrap>
     </div>

@@ -126,7 +126,7 @@ export default {
             ...pieConfig,
             tooltip: { show: true },
             label: {
-              formatter: "   {b|{b}}   \n   {c|{c}}   {per|{d}%}  ",
+              formatter: "   {b|{b}}   \n   {c|{c}}   {per|{d}%}",
               rich: {
                 b: {
                   color: "#fff",
@@ -141,7 +141,7 @@ export default {
                   color: "#31ABE3",
                   fontSize: 14
                 }
-              }
+              },
             },
             labelLine: {
               length: 20,
