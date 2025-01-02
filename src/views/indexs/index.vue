@@ -1,8 +1,6 @@
 <template>
   <div class="contents">
     <div class="contetn_left">
-      <div class="pagetab">
-      </div>
       <ItemWrap class="contetn_left-top contetn_lr_item" title="能耗总览">
         <LeftTop></LeftTop>
       </ItemWrap>

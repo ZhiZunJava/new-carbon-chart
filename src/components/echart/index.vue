@@ -2,11 +2,11 @@
  * @Author: daidai
  * @Date: 2022-02-28 16:29:08
  * @LastEditors: Litheme
- * @LastEditTime: 2024-11-20 00:16:40
+ * @LastEditTime: 2024-12-29 12:03:52
  * @FilePath: \chart\src\components\echart\index.vue
 -->
 <template>
-  <div :id="id" :class="className" :style="{ height: height, width: width }" />
+  <div :id="id" :class="className" :style="{ height: height, width: width }"></div>
 </template>
 
 <script>

@@ -300,7 +300,6 @@ export default {
     height: 60px;
     display: flex;
     justify-content: center;
-    padding-top: 10px;
     box-sizing: border-box;
 
     .titleText {
@@ -321,7 +320,7 @@ export default {
       background-size: 100% 100%;
       width: 29px;
       height: 20px;
-      margin-top: 8px;
+      margin-top: 4px;
     }
 
     .zuo {

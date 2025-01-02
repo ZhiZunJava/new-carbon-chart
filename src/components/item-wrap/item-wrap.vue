@@ -28,8 +28,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-$item-title-height: 38px;
-$item-title-content-height: calc(100% - $item-title-height);
 
 .lr-titles {
   box-sizing: border-box;
@@ -39,10 +37,9 @@ $item-title-content-height: calc(100% - $item-title-height);
   }
 
   .item-title {
-    height: $item-title-height;
-    line-height: $item-title-height;
+    height: 38px;
+    line-height: 38px;
     width: 100%;
-    color: #31abe3;
     text-align: center;
     position: relative;
     display: flex;
@@ -71,7 +68,7 @@ $item-title-content-height: calc(100% - $item-title-height);
   }
 
   .item-title-content {
-    height: $item-title-content-height;
+    height: calc(100% - 38px);
   }
 
   .item-title-content-def {

@@ -1,5 +1,5 @@
 <template>
-    <div class='reacquire flex justify-center  blocks  cursor-pointer' :style="{ lineHeight: lineHeight }"
+    <div class='reacquire flex justify-center blocks cursor-pointer' :style="{ lineHeight: lineHeight }"
         @click="getData">
         <span>
             重新获取
@@ -44,7 +44,6 @@ export default {
 
 <style lang='scss' scoped>
 .reacquire {
-
     user-select: none;
     color: rgb(168, 168, 168);
 

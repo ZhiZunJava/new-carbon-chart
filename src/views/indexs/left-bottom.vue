@@ -55,7 +55,7 @@ export default {
       loading: false,
       scrollOptions: {
         ...this.$store.state.setting.defaultOption,
-        singleHeight: 240,
+        singleHeight: 200,
         limitMoveNum: 5,
         step: 0
       }

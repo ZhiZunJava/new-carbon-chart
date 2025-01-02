@@ -1,7 +1,7 @@
 <template>
   <dv-loading v-if="loading">Loading...</dv-loading>
 
-  <ul class="user-overview flex" v-else-if="isData && !loading">
+  <ul class="user-overview" v-else-if="isData && !loading">
     <li class="user-overview-item" :style="{ color: '#00fdfa' }">
       <div class="user-overview-num">
         <dv-digital-flop :config="powerConsumeConfig" style="width: 100%; height: 100%;" />
@@ -146,12 +146,7 @@ export default {
         left: 0;
         width: 100%;
         height: 100%;
-        font-size: 5px;
         background-size: cover;
-      }
-
-      &.bgdonghua::before {
-        animation: rotating 14s linear infinite;
       }
     }
   }
@@ -168,15 +163,5 @@ export default {
 
 .user-overview-item:nth-child(3) .user-overview-num::before {
   background-image: url("../../assets/img/left_top_huang.png");
-}
-
-@keyframes rotating {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
 }
 </style>
